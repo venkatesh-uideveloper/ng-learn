@@ -16,6 +16,7 @@ body {
 h1,h2,h3,h4,h5,h6 { 
 	font-weight: bold; 
 }
+.btn-warning { background-color: #ff6600; border-color: #ff6600 }
 /*  _______________________________________
 
    	Header Start
@@ -24,6 +25,9 @@ header.navbar {
 	margin-bottom: 0;
 	border-bottom: 3px solid #ff6600;
 	border-radius: 0;
+}
+.nav-menu {
+	margin-top: 30px;
 }
 .nav-menu > li > a { 
 	font-weight: bold; 
@@ -34,7 +38,7 @@ header.navbar {
 	background-color: #ff6600; 
 }
 .navbar-right .full-width-menu { 
-	right: -338px; 
+	right: -240px; 
 	top: 53px; 
 }
 .full-width-menu { 
@@ -57,6 +61,11 @@ header.navbar {
 	color: #333; 
 	background-color: #ffffff; 
 }
+.toolbar { z-index: 12; position: relative;  }
+.nav-bar-right { float: right; position: absolute; right: 0; top: 0; }
+.nav-bar-right li { float: left; }
+.nav-bar-right li a { padding: 0; color: #333333; font-size: 12px; margin: 5px 8px; }
+.nav-bar-right li a:hover, .nav-bar-right li a:focus { background: transparent; color: #ff6600; }
 /*  _______________________________________
 
    	Header end

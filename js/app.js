@@ -1,1 +1,3 @@
-var app = angular.module("venky",["ngRoute", "ngAnimate"]);
+var app = angular.module("venky",["ngRoute", "ngAnimate", "ui.bootstrap"]);
+
+app.controller('TypeaheadCtrl', function(){})
