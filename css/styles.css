@@ -16,14 +16,14 @@ body {
 h1,h2,h3,h4,h5,h6 { 
 	font-weight: bold; 
 }
-.btn-warning { background-color: #ff6600; border-color: #ff6600 }
+.btn-primary { background-color: #007fcc; border-color: #007fcc; }
 /*  _______________________________________
 
    	Header Start
     _______________________________________  */
 header.navbar {
 	margin-bottom: 0;
-	border-bottom: 3px solid #ff6600;
+	border-top: 3px solid #007fcc;
 	border-radius: 0;
 }
 .nav-menu {
@@ -35,7 +35,7 @@ header.navbar {
 }
 .navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu > li > a:focus, .navbar-default .nav-menu > li.active > a, .navbar-default .nav-menu > li.open > a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { 
 	color: #ffffff; 
-	background-color: #ff6600; 
+	background-color: #007fcc; 
 }
 .navbar-right .full-width-menu { 
 	right: -240px; 
@@ -43,7 +43,7 @@ header.navbar {
 }
 .full-width-menu { 
 	padding: 15px 0; 
-	background-color: #ff6600; 
+	background-color: #007fcc; 
 	color: #ffffff; 
 	border-top: 0 none; 
 }
@@ -65,7 +65,7 @@ header.navbar {
 .nav-bar-right { float: right; position: absolute; right: 0; top: 0; }
 .nav-bar-right li { float: left; }
 .nav-bar-right li a { padding: 0; color: #333333; font-size: 12px; margin: 5px 8px; }
-.nav-bar-right li a:hover, .nav-bar-right li a:focus { background: transparent; color: #ff6600; }
+.nav-bar-right li a:hover, .nav-bar-right li a:focus { background: transparent; color: #007fcc; }
 /*  _______________________________________
 
    	Header end
@@ -113,6 +113,7 @@ section {
 	font-weight: bold; 
 	text-transform: uppercase; 
 }
+.typeahead-dropdown .dropdown-menu { width: 78%; }
 /*  _______________________________________
 
    	Home Start
