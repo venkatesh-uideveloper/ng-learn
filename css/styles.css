@@ -1,0 +1,123 @@
+/*  _______________________________________
+
+   	setup css layout
+    _______________________________________  */
+1. css fonts, default and reset
+2. header 
+3. Footer
+4. home
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+body {
+	color: #333333;
+	font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 { 
+	font-weight: bold; 
+}
+/*  _______________________________________
+
+   	Header Start
+    _______________________________________  */
+header.navbar {
+	margin-bottom: 0;
+	border-bottom: 3px solid #ff6600;
+	border-radius: 0;
+}
+.nav-menu > li > a { 
+	font-weight: bold; 
+	text-transform: uppercase; 
+}
+.navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu > li > a:focus, .navbar-default .nav-menu > li.active > a, .navbar-default .nav-menu > li.open > a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { 
+	color: #ffffff; 
+	background-color: #ff6600; 
+}
+.navbar-right .full-width-menu { 
+	right: -338px; 
+	top: 53px; 
+}
+.full-width-menu { 
+	padding: 15px 0; 
+	background-color: #ff6600; 
+	color: #ffffff; 
+	border-top: 0 none; 
+}
+.full-width-menu ul {
+	list-style: none; 
+	padding: 0; 
+}
+.full-width-menu ul li a { 
+	color: #ffffff; 
+	text-decoration: none; 
+	display: block; 
+	padding: 2px 5px;  
+}
+.full-width-menu ul li a:hover { 
+	color: #333; 
+	background-color: #ffffff; 
+}
+/*  _______________________________________
+
+   	Header end
+    _______________________________________  */
+/*  _______________________________________
+
+   	Footer Start
+    _______________________________________  */
+footer {
+	background-color: #333333;
+	padding: 15px 0;
+	color: #ffffff;
+}
+
+/*  _______________________________________
+
+   	Footer End
+    _______________________________________  */
+section { 
+	background-color: #f8f8f8; 
+	padding: 15px 0; 
+}
+/*  _______________________________________
+
+   	Home Start
+    _______________________________________  */
+.main-banner { 
+	background-image: url("http://bootstraplovers.com/templates/assan-v1.7/img/bg-3.jpg"); 
+	min-height: 600px; 
+	background-size: cover;   
+}
+.table-middle { 
+	height: 600px; 
+	display: table-cell; 
+	vertical-align: middle; 
+	width: 1%;  
+}
+.table-middle h1 { 
+	color: #ffffff; 
+	font-size: 60px; 
+	margin-top: 0; 
+	margin-bottom: 25px; 
+}
+.table-middle .input-group-btn>.btn { 
+	font-weight: bold; 
+	text-transform: uppercase; 
+}
+/*  _______________________________________
+
+   	Home Start
+    _______________________________________  */
+
+
+/*  _______________________________________
+
+   	media queries Start
+    _______________________________________  */
+
+
+
+/*  _______________________________________
+
+   	media queries End
+    _______________________________________  */
