@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: bold; 
 }
 .btn-primary { background-color: #007fcc; border-color: #007fcc; }
+
 /*  _______________________________________
 
    	Header Start
@@ -25,17 +26,21 @@ header.navbar {
 	margin-bottom: 0;
 	border-top: 3px solid #007fcc;
 	border-radius: 0;
+	border: 0 none;
+	background-color: #ffffff;
 }
+.bottom-head { background-color: #007fcc;  }
 .nav-menu {
-	margin-top: 30px;
+	
 }
-.nav-menu > li > a { 
+.bottom-head .nav-menu > li > a { 
 	font-weight: bold; 
 	text-transform: uppercase; 
+	color: #ffffff;
 }
 .navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu > li > a:focus, .navbar-default .nav-menu > li.active > a, .navbar-default .nav-menu > li.open > a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { 
-	color: #ffffff; 
-	background-color: #007fcc; 
+	color: #007fcc; 
+	background-color: #ffffff; 
 }
 .navbar-right .full-width-menu { 
 	right: -240px; 
@@ -61,11 +66,17 @@ header.navbar {
 	color: #333; 
 	background-color: #ffffff; 
 }
-.toolbar { z-index: 12; position: relative;  }
-.nav-bar-right { float: right; position: absolute; right: 0; top: 0; }
+.toolbar { z-index: 12; position: relative; margin-right: -15px;  }
+.nav-bar-right { float: right; }
 .nav-bar-right li { float: left; }
-.nav-bar-right li a { padding: 0; color: #333333; font-size: 12px; margin: 5px 8px; }
+.nav-bar-right li a { padding: 0; color: #333333; font-size: 12px; margin: 16px 8px; line-height: 20px; }
+.nav-bar-right li:last-child a { color: #007fcc; font-weight: bold; font-size: 14px; }
 .nav-bar-right li a:hover, .nav-bar-right li a:focus { background: transparent; color: #007fcc; }
+.nav-right-link li a {
+	color: #ffffff;
+	padding: 15px; 
+}
+.nav-right-link li a:hover { color: #f8f8f8; background-color: transparent;  }
 /*  _______________________________________
 
    	Header end
@@ -86,7 +97,7 @@ footer {
     _______________________________________  */
 section { 
 	background-color: #f8f8f8; 
-	padding: 15px 0; 
+ 
 }
 /*  _______________________________________
 
@@ -114,6 +125,32 @@ section {
 	text-transform: uppercase; 
 }
 .typeahead-dropdown .dropdown-menu { width: 78%; }
+
+.grid-view h2 {
+	margin-bottom: 20px;
+}
+.thumbnail { padding: 10px; }
+.thumbnail .caption { padding: 0; }
+.thumbnail>img { height: 180px; width: 100%; }
+a.caption-title { color: #333333; height: 45px; text-decoration: none; display: table-cell; vertical-align: middle; width: 1%; }
+a.caption-title:hover, a.caption-title:focus  { color: #007fcc; }
+.caption-content { padding: 10px 0; font-size: 12px; border-top: 1px solid #ebebeb; color: #333333; }
+.caption-content a { color: #333333; }
+
+.middle-banner {      
+	background-image: url("../img/banners/middle-banner.jpg");    
+ 	min-height: 350px;
+	background-size: cover; 
+} 
+.our-products {
+	background-color: rgba(51,51,51,0.5);
+	min-height: 150px;
+	margin-top: 70px;
+	padding: 20px;
+	color: #ffffff;
+	border-radius: 4px;
+}
+.our-products h1 { margin-top: 0; margin-bottom: 20px; }
 /*  _______________________________________
 
    	Home Start
